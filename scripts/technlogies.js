@@ -10,7 +10,8 @@ document.addEventListener("change", (changeEvent) => {
 
 export const Technologies = () => {
   let html = "<h2>Technologies</h2>";
-  html += `<select name="technology">`;
+  html += `<select name="technology">
+  <option> Please Select One </option>`;
 
   const dropDownOfTechnologiesArray = technologies.map((technology) => {
     return `

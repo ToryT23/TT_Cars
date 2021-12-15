@@ -11,7 +11,8 @@ document.addEventListener("change", (changeEvent) => {
 
 export const Wheels = () => {
   let html = "<h2>Wheels</h2>";
-  html += `<select name="wheel">`;
+  html += `<select name="wheel">
+  <option> Please Select One </option>`;
 
   const dropDownOfWheelArray = allwheels.map((wheel) => {
     return `

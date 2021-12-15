@@ -35,7 +35,9 @@ const buildOrderCarListItem = (order) => {
  return ` 
  <li order--list-item">
  Order #${order.id} placed on ${new Date(order.timestamp).toLocaleString()},
- Is a new 2021 SUV and it cost $${totalPrice}.
+ Is a new ${foundPaint.color} 2021 Cadillac Escalade loaded with ${foundInterior.type}, a ${foundTechnology.type} navigation package,
+ and the lastest set of ${foundWheel.type} wheels.
+IT's The Best Deal ON The Market.
  <p>
  Total Price: $${totalPrice.toFixed(2)}
  </p> 

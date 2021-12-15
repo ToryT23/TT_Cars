@@ -10,13 +10,15 @@ document.addEventListener("change", (changeEvent) => {
 
 export const Interiors = () => {
   let html = "<h2>Interiors</h2>";
-  html += `<select name="interior">`;
+  html += `<select name="interior">
+  <option> Please Select One </option>`;
 
   const dropDownOfInteriorArray = interiors.map((interior) => {
     return `
     
 <option  
 value="${interior.id}" /> ${interior.type}
+
 </option>
     `;
   });

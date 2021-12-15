@@ -10,7 +10,8 @@ document.addEventListener("click", (changeEvent) => {
 
 export const paintColors = () => {
   let html = "<h2>Paint Colors</h2>";
-  html += `<select name="paint">`;
+  html += `<select name="paint">
+  <option> Please Select One </option>`;
 
   // name = "paint" is used to let the eventlistener know that we are looking for only paints
   // im am mapping over my paintColor array to display each options for the different paint colors
