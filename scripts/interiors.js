@@ -8,6 +8,8 @@ document.addEventListener("change", (changeEvent) => {
   }
 });
 
+// <option> </option> is for scroll down bars
+
 export const Interiors = () => {
   let html = "<h2>Interiors</h2>";
   html += `<select name="interior">
